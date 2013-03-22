@@ -489,6 +489,7 @@
 				2847E27416FD0EA100D5662A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2847E27516FD0EA100D5662A /* Build configuration list for PBXNativeTarget "4bugzTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +498,7 @@
 				2847E27716FD0EA100D5662A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

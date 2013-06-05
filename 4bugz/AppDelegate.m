@@ -8,11 +8,23 @@
 
 #import "AppDelegate.h"
 
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [InitDatabase initialize];
+    
+    //Just for test
+    User *user = [[User alloc]init];
+    [user setPk:[NSNumber numberWithInt:1]];
+    [user setEmail:@""];
+    [user setPassword:@""];
+    [user setToken:@"h1ocbtl0rq1e2bhpja022unrjjaspr"];
+    [user setApiUrl:@"http://fogbugz.rga.com/api.asp"];
+    [user setLogged:[NSNumber numberWithInt:1]];
+    [user save];
     return YES;
 }
 							

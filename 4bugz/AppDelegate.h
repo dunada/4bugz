@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "InitDatabase.h"
+#import "TicketBusiness.h"
+#import "User.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

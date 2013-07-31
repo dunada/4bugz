@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2828DE4917A98F5600CCCA39 /* icon114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 2828DE4817A98F5600CCCA39 /* icon114x114.png */; };
 		285CBC5716FF7EA600EA50CA /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 285CBC5016FF7EA600EA50CA /* 1.gif */; };
 		285CBC5816FF7EA600EA50CA /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 285CBC5116FF7EA600EA50CA /* 2.gif */; };
 		285CBC5916FF7EA600EA50CA /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 285CBC5216FF7EA600EA50CA /* 3.gif */; };
@@ -495,6 +496,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2828DE4817A98F5600CCCA39 /* icon114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114x114.png; sourceTree = "<group>"; };
 		285CBC5016FF7EA600EA50CA /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
 		285CBC5116FF7EA600EA50CA /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
 		285CBC5216FF7EA600EA50CA /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3.gif; sourceTree = "<group>"; };
@@ -1065,6 +1067,7 @@
 		2887149916FE2AC60047F2A4 = {
 			isa = PBXGroup;
 			children = (
+				2828DE4817A98F5600CCCA39 /* icon114x114.png */,
 				28EB3272175FB1D400F25F94 /* Default.png */,
 				28EB3270175FB1CF00F25F94 /* Default@2x.png */,
 				28EB326E175FB1C800F25F94 /* Default-568h@2x.png */,
@@ -2291,6 +2294,7 @@
 				28EB326F175FB1C800F25F94 /* Default-568h@2x.png in Resources */,
 				28EB3271175FB1CF00F25F94 /* Default@2x.png in Resources */,
 				28EB3273175FB1D500F25F94 /* Default.png in Resources */,
+				2828DE4917A98F5600CCCA39 /* icon114x114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2507,6 +2511,7 @@
 				"OTHER_CFLAGS[arch=*]" = "-DARC_ENABLED=TRUE";
 				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "-DARC_ENABLED=TRUE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2520,6 +2525,7 @@
 				"OTHER_CFLAGS[arch=*]" = "-DARC_ENABLED=TRUE";
 				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "-DARC_ENABLED=TRUE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
